@@ -1,6 +1,6 @@
 FROM python:3.5.3
 
-MAINTAINER Helpful version: 0.1
+MAINTAINER Helpful version: 0.1.1
 
 ADD https://cli.run.pivotal.io/stable?release=linux64-binary&source=github /tmp/cf-cli.tgz
 RUN mkdir -p /usr/local/bin \
