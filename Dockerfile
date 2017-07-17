@@ -21,4 +21,5 @@ RUN echo "deb http://www.deb-multimedia.org jessie main non-free" >> /etc/apt/so
 RUN apt-get update 
 RUN apt-get -y --force-yes dist-upgrade
 RUN apt-get install -y --force-yes ffmpeg
+RUN apt-get install -y --force-yes time
 ENTRYPOINT ["ffmpeg", "--help"]
