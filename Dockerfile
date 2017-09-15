@@ -1,6 +1,6 @@
-FROM python:3.5.3
+FROM python:3.6.2
 
-MAINTAINER Helpful version: 0.1.2
+MAINTAINER Helpful version: 0.1.3
 
 ADD https://cli.run.pivotal.io/stable?release=linux64-binary&source=github /tmp/cf-cli.tgz
 RUN mkdir -p /usr/local/bin \
