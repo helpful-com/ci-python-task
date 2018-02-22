@@ -15,7 +15,7 @@ RUN cd /opt \
       && mkdir jq \
       && wget -O ./jq/jq http://stedolan.github.io/jq/download/linux64/jq \
       && chmod +x ./jq/jq \
-      && ln -s /opt/jq/jq /usr/local/bina
+      && ln -s /opt/jq/jq /usr/local/bin
 
 RUN echo "deb http://www.deb-multimedia.org jessie main non-free" >> /etc/apt/sources.list
 RUN apt-get update 
